@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Deals - Wish from Temu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+        }
+
+        header {
+            background-color: #673ab7;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        .deals-section {
+            padding: 30px;
+        }
+
+        .deals-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #673ab7;
+        }
+
+        .deal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .deal-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .deal-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .deal-item h3 {
+            padding: 10px;
+            font-size: 1.2rem;
+            color: #333;
+            text-align: center;
+        }
+
+        .deal-item p {
+            padding: 0 10px 10px;
+            color: #777;
+            text-align: center;
+        }
+
+        .deal-item a {
+            display: block;
+            text-align: center;
+            margin: 10px auto;
+            width: 80%;
+            padding: 10px;
+            background: #673ab7;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .deal-item a:hover {
+            background: #512b9b;
+        }
+
+        footer {
+            background: #673ab7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Featured Deals</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="deals-section">
+        <h2>Hot Deals Just for You!</h2>
+        <div class="deal-grid">
+            <div class="deal-item">
+                <img src="https://m.media-amazon.com/images/I/41C50rAycqL.jpg" alt="Echo Dot">
+                <h3>Echo Dot (5th Gen)</h3>
+                <p>Smart speaker with Alexa. **Now: $29.99** (Was $49.99)</p>
+                <a href="https://www.amazon.com/dp/B09B7JB8F3" target="_blank">Shop Deal</a>
+            </div>
+            <div class="deal-item">
+                <img src="https://image.made-in-china.com/201f0j00ltKenmkGlAcE/Pd-140W-20000mAh-High-Capacity-Pd3-0-Power-Bank-Super-Fast-Charge-TFT-Smart-Display-Portable-Laptop-Power-Bank.webp" alt="Anker Power Bank">
+                <h3>Anker Power Bank</h3>
+                <p>High-capacity portable charger. **Now: $19.99** (Was $39.99)</p>
+                <a href="https://www.amazon.com/dp/B0899S74G3" target="_blank">Shop Deal</a>
+            </div>
+            <div class="deal-item">
+                <img src="https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-side-view-pale-gray.png?v=1" alt="Logitech MX Master 3">
+                <h3>Logitech MX Master 3</h3>
+                <p>Advanced wireless mouse. **Now: $89.99** (Was $119.99)</p>
+                <a href="https://www.amazon.com/dp/B07S396KHX" target="_blank">Shop Deal</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Wish from Temu | Designed by Dilshad Shia & Efe</p>
+    </footer>
+</body>
+</html>
